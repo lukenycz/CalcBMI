@@ -64,6 +64,7 @@ enum BMIType {
             return "Ważysz za dużo! Idź na spacer!"
         case .reallyFat:
             return "Masz poważne problemy, zgłoś się do lekarza."
+            
         }
     }
     
@@ -86,6 +87,7 @@ enum BMIType {
         }
     }
 }
+
 struct BMI {
     let mass: Double
     let height:  Double
