@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var bmiLabel: UILabel!
     @IBOutlet weak var massLabel: UILabel!
     @IBOutlet weak var adviceLabel: UILabel!
-                                 
     
     // używaj jesli chcesz się dostać do
     //struktury/klasy/funkcji w innym widoku

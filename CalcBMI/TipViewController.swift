@@ -10,9 +10,6 @@ import UIKit
 class TipViewController: UIViewController {
     
     var bmi: BMI?
-    
-
-
     @IBOutlet weak var fullAdvice: UILabel!
     @IBAction func goBackButton(_ sender: Any) {
         dismiss(animated: true, completion: nil)
@@ -26,11 +23,11 @@ class TipViewController: UIViewController {
         }else if bmi!.doubleValue <= 18.5 {
             fullAdvice.text = "porada dla chudych"
         }else if bmi!.doubleValue <= 24.9 {
-            fullAdvice.text = "porada dla prawidłowych"
+            fullAdvice.text = "porada dla przeciętnych"
         }else if bmi!.doubleValue <= 29.0 {
             fullAdvice.text = "porada dla otyłych"
         }else if bmi!.doubleValue <= 41.9 {
-            fullAdvice.text = "porada dla gruuuubych"
+            fullAdvice.text = "porada dla bardzo otyłych"
         }else if bmi!.doubleValue >= 42.0 {
             fullAdvice.text = "wpisz poprawną wartość!"
         }
